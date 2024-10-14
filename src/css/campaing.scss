@@ -1,0 +1,36 @@
+.bg{
+    border-bottom: 1.5px solid #1DA547;
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: 0 9px 95px rgba(0,0,0,.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    p{
+        color: black;
+        margin: 10px 0;
+    }
+    .campaing{
+        padding: 15px;
+        &-code{
+            span{
+                display: inline-block;
+                background-color: #1DA547;
+                border-radius: 12px;
+                padding: 14px 16px;
+                color: #fff;
+                cursor: pointer;
+                margin-right: 15px;
+            }
+            i{
+                cursor: pointer;
+                margin-right: 15px;
+                text-decoration: underline;
+              font-size: 18px;
+            }
+        }
+    }
+}

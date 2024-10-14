@@ -1,0 +1,35 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "Oprah front",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erkan Akar",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-purifycss": "^0.2.0",
+    "gulp-webp-css": "^1.1.0",
+    "gulp-webp-html": "^1.0.2",
+    "imagemin-webp": "^6.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clone": "^2.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sharp-responsive": "^0.3.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webp": "^4.0.1",
+    "node-sass": "^5.0.0",
+    "purify-css": "^1.2.5",
+    "run-sequence": "^2.2.1"
+  }
+}

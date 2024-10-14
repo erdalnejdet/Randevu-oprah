@@ -1,0 +1,115 @@
+$box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.07);
+
+.psikolog {
+    padding: 40px 0;
+
+    .col-12 {
+        margin-top: 20px;
+    }
+
+    &-box {
+
+        gap: 10px;
+        background-color: #fff;
+        height: 100%;
+        border: 1px solid #efefef;
+        padding: 24px;
+        box-shadow: $box-shadow;
+        border-radius: 12px;
+
+        &-img {
+            img {
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+                aspect-ratio: 1/1;
+                border-radius: 50%;
+                margin-right: 15px;
+            }
+
+        }
+
+        &-content {
+            p {
+                color: #1DA547;
+            }
+
+            span {
+                font-size: 25px;
+            }
+        }
+
+        &-uzmanlık {
+            margin-top: 25px;
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 12px;
+
+                li {
+                    background-color: #1da547;
+                    opacity: .8;
+                    padding: 10px;
+                    color: #fff;
+                    font-size: 15px;
+                    font-weight: 500;
+                    border-radius: 12px;
+                    text-align: center;
+
+                    a {
+                        color: #fff;
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+
+        button {
+
+            margin: 25px 0;
+            color: #FFF;
+            font-size: 14px;
+            line-height: 1.2em;
+            font-weight: 600;
+            background-color: #1DA547;
+            border-radius: 6px;
+            padding: 16px 24px;
+            display: inline-block;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, .16);
+            transition: 0.3s;
+
+            &:hover {
+                box-shadow: none;
+            }
+
+        }
+
+    }
+}
+
+.daha-fazla {
+
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 17px;
+    text-decoration: underline;
+    line-height: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    color: #1DA547;
+
+
+    display: inline-block;
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .16);
+    transition: 0.3s;
+
+    &:hover {
+        box-shadow: none;
+    }
+}

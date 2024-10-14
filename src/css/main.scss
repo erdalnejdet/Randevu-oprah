@@ -1,0 +1,20 @@
+.main{
+    background-color: #1DA547;
+    padding: 30px;
+    border-radius: 12px;
+    &-timer{
+        span{
+            margin-top: 20px;
+            font-size: 15px;
+            font-weight: 300;
+            color: #fff;
+            line-height: 22px;
+            display: inline-block;
+        }
+        p{
+            margin-top: 10px;
+        }
+    }
+
+
+}
