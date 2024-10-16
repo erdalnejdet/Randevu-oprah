@@ -79,3 +79,33 @@ img {
     border-radius: 6px;
     padding: 16px 24px;
 }
+
+li.paginate_button.page-item.active {
+    background-color: #14eb58 !important;
+    border-radius: 12px !important;
+}
+
+li.paginate_button.page-item.active .page-link {
+    color: white !important;
+}
+.page-link{
+    color:black!important;
+}
+.page-item{
+    margin-top:1rem;
+}
+.dataTables_info{
+    margin-top: 1rem;
+    display: none!important;
+}
+.dataTables_wrapper .dataTables_paginate{
+    transition: 0.3s!important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: white !important;
+    background-color: #14eb58!important;
+    background: #14eb58!important;
+    border: none!important;
+    border-radius: 12px !important;
+}
