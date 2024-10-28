@@ -179,6 +179,50 @@
             </div>
         </div>
     </section>
+    
+    <div class="modal" id="randevuModal">
+        <div class="modal-content">
+            <h2 class="modal-title">Randevu Tarihi</h2>
+            <span class="close-btn" onclick="closeModal()">×</span>
+            <div class="selection-container">
+                <div class="calendar-container">
+                    <div class="calendar">
+                        <div class="calendar-header">
+
+                            <span class="cursor" onclick="changeMonth(-1)">
+                                <img style="transform: rotate(180deg);" src="img/prev.svg" alt="">
+                            </span>
+                            <span id="currentMonth"></span>
+                            <span class="cursor" onclick="changeMonth(1)">
+                                <img src="img/next.svg" alt="">
+                            </span>
+                        </div>
+                        <table class="calendar-table">
+                            <thead>
+                                <tr>
+                                    <th>Pt</th>
+                                    <th>Sa</th>
+                                    <th>Ça</th>
+                                    <th>Pe</th>
+                                    <th>Cu</th>
+                                    <th>Ct</th>
+                                    <th>Pa</th>
+                                </tr>
+                            </thead>
+                            <tbody id="calendarDays"></tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="time-selection-container">
+                    <h3>Seansa başlama saatini seçin.</h3>
+                    <div class="time-slots" id="timeSlots"></div>
+                </div>
+            </div>
+
+            
+            <button class="confirm-btn" onclick="confirmSelection()">Saat Seçimini Onayla</button>
+        </div>
+    </div>
  </div>
  
 <script src="js/app.min.js"></script>
