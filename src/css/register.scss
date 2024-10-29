@@ -1,6 +1,9 @@
 .register{
     padding: 70px 0;
     background-color: #1DA547;
+    height: 100vh;
+    display: flex;
+    align-items: center;
   
     form {
         background: #ffffff;
@@ -8,6 +11,9 @@
         padding:48px;
         max-width: 510px;
         width: 100%;
+        p{
+            color: #333;
+        }
 
         label {
             display: block;
