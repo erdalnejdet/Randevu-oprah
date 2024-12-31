@@ -2,24 +2,31 @@ header{
     position: fixed;
     left: 0;
     top: 0;
+    z-index: 99;
     height: 100%;
     max-width: 328px;
     background-color: #1DA547;
-    padding: 30px;
-    ul{
+    padding: 30px 15px;
+    ul{ 
         li{
             position: relative;
             margin: 10px 0;
+      
             a{
                 padding: 12px;
                 display: inline-block;
                 text-decoration: none;
                 color: #fff;
-                font-size: 18px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-size: 20px;
                 font-weight: 400;
                 position: relative;
                 z-index: 1;
-             
+             i{
+                font-size: 25px;
+             }
     
             }
             &::before{
@@ -39,4 +46,37 @@ header{
             }
         }
     }
+}
+.open-menu{
+    cursor: pointer;
+    z-index: 88;
+    padding: 0 12px;
+    margin-bottom: 30px;
+    span {
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        display: block;
+        transition: .3s ease;
+        position: relative;
+
+        &:nth-child(2) {
+            margin: .4em 0;
+        }
+}
+}
+.sidebar-on{
+    .nav-item{
+        display: flex;
+        opacity: 1;
+        pointer-events: all;
+    }
+}
+
+
+.nav-item{
+    display: none;
+    
+    opacity: 0;
+    pointer-events: none;
 }
