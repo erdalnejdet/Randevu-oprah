@@ -1,16 +1,19 @@
 .register{
     padding: 70px 0;
-    background-color: #1DA547;
-    height: 100vh;
     display: flex;
     align-items: center;
-  
+    background-color: #f4f7fe;
+    min-height: 100vh;
     form {
         background: #ffffff;
         border-radius: 40px 40px 0px 40px;
         padding:48px;
         max-width: 510px;
         width: 100%;
+        margin: auto;
+        border: 1px solid #d0d5dd;
+        -webkit-box-shadow: 0 4px 30px 0 rgba(0,0,0,.07);
+        box-shadow: 0 4px 30px 0 rgba(0,0,0,.07);
         p{
             color: #333;
         }
@@ -112,4 +115,13 @@
         }
     }
 
+  }
+
+
+  .gray{
+    background-color: #f4f7fe;
+  }
+
+  img{
+    max-width: 100%;
   }

@@ -19,6 +19,7 @@ header{
                 color: #fff;
                 display: flex;
                 align-items: center;
+                justify-content: center;
                 gap: 10px;
                 font-size: 20px;
                 font-weight: 400;
@@ -79,4 +80,8 @@ header{
     
     opacity: 0;
     pointer-events: none;
+}
+
+.sidebar-on ul li a{
+    justify-content: start!important;
 }
