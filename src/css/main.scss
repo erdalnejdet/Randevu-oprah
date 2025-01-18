@@ -2,6 +2,21 @@
     background-color: #1DA547;
     padding: 30px;
     border-radius: 12px;
+    position: relative;
+    z-index: 1;
+    &::after{
+        right: 0;
+        bottom: 0;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 70%;
+        background-image: url(../img/oprah.svg);
+        z-index: -1;
+        position: absolute;
+        content: '';
+    }
     &-timer{
         span{
             margin-top: 20px;

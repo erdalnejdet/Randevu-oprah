@@ -6,11 +6,13 @@
     color: white;
 }
 
+.table{
+    padding: 5px 0;
+}
 .table-container {
-    background-color: white;
-    padding: 20px;
+    background: #F5F5F5;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
 }
 
 .table table {
@@ -19,25 +21,29 @@
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     border-radius: 10px;
+    
+}
+.table tbody thead{
+    background: #F5F5F5;
+  
+
 }
 
 .table table thead tr {
-    background-color: #4CAF50;
-    color: white;
+    color: #0F1419;
     text-align: left;
+    border-bottom: 1px solid #4caf6d3b;
+}
+.table table tbody tr:not(:last-of-type){
+    padding: 7px 0;
+    border-bottom: 1px solid #4caf6d3b;
 }
 
 .table table th, 
 .table table td {
-    padding: 12px 15px;
-    border: 1px solid #ddd;
+    padding: 12px;
     text-align: center;
 }
-
-.table table tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
 
 .table table th {
     font-weight: bold;

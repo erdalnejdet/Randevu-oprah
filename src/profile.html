@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oprah</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/app.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="icon" href="img/favicon_.svg" type="image/x-icon" />
+
+</head>
+
+<body>
+    <header>
+        <div class="open-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header">
+            <ul>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="nav-item">Anasayfa</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span class="nav-item">Randevularım</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-circle-plus"></i>
+                        <span class="nav-item">Randevu oluştur</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <span class="nav-item">
+                            Çıkış yap
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+ <div class="body-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 ">
+                <div class="main">
+                    <div>
+                        <h1>
+                        <span>
+                            Profile Bilgileri
+                        </span>
+                        </h1>
+                        <a class="randevu-button" href="/">
+                            Geri dön
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-5 pb-2">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+                <div class="profile">
+                    <form action="">
+                        <h3>
+                            Profil Bilgileri
+                        </h3>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <label for="name">İsim</label>
+                                <input type="text" name="name"  disabled>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="name">Soyisim</label>
+                                <input type="text" name="name"  disabled>
+                            </div>
+                            <div class="col-12 col-md-12">
+                                <label for="name">Telefon</label>
+                                <input type="text" name="name"  disabled>
+                            </div>
+                            <div class="col-12 col-md-12">
+                                <label for="name">Eposta</label>
+                                <input type="text" name="name"  disabled>
+                            </div>
+                            <div class="col-12 col-md-12">
+                                <label for="name">Cinsiyet</label>
+                                <input type="text" name="name"  disabled>
+                            </div>
+                            <div class="col-12 col-md-12">
+                                <label for="name">Doğum Tarihi</label>
+                                <input type="text" name="name"  disabled>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-12 col-md-5">
+                <div class="profile h-500">
+                    <form class="" action="">
+                    <div class="profile-container">
+                        <h1 class="profile-header">Profil Resmi</h1>
+                        
+                        <div class="profile-section">
+                            <div class="profile-image">
+                                <img id="previewImage" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23999' d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E" alt="Profil Resmi">
+                            </div>
+                            <div class="profile-actions">
+                                <button class="profile-button delete-btn">Sil</button>
+                                <button class="profile-button update-btn">Güncelle</button>
+                            </div>
+                        </div>
+                
+                        <input type="file" id="fileInput" accept="image/*">
+                        <div class="upload-area" id="uploadArea">
+                            <div class="upload-icon">↻</div>
+                            <div class="upload-text">Yüklemek için tıklayın veya sürükleyip bırakın</div>
+                            <div class="upload-subtext">SVG,PNG ya da JPG<br>(Min,400x400px)</div>
+                        </div>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-2">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+                <div class="profile bg-profile">
+                    <p>
+                        Değerli öğrencimiz, öğrenci indiriminden yararlanabilmeniz için öğrenci belgenizi yüklemeniz gerekmektedir. Bu belge, güncel ve resmi bir şekilde öğrenci olduğunuzu kanıtlayan bir doküman olmalıdır. Belgeyi yükledikten sonra indirim avantajlarından sorunsuz bir şekilde faydalanabilirsiniz. İşleminizi tamamlamak için lütfen gerekli adımları takip ediniz. Anlayışınız ve iş birliğiniz için teşekkür ederiz.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-5">
+                <div class="profile">
+                    <form action="" method="POST" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-12 col-md-12 mb-3">
+                                <label for="student-document">Öğrenci Belgesi Yükle</label>
+                                <input type="file" name="student-document" id="student-document" class="form-control" required>
+                            </div>
+                            <div class="col-12 col-md-12">
+                                <button type="submit" class="green-button">Belgeyi Gönder</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+ </div>
+ 
+<script src="js/app.min.js"></script>
+</body>
+
+</html>
