@@ -2,14 +2,32 @@
 @media (max-width: 576px) {  }
 
 
-@media (max-width: 768px) {  }
+@media (max-width: 768px) { 
+    .main{
+        padding: 20px;
+    }
+    .bg{
+        flex-wrap: wrap;
+    }
+    .register{
+        form{
+            padding: 24px;
+        }
+    }
+    .fc-col-header-cell{
+        font-size: 12px!important;
+    }
+ }
 
 @media (max-width: 992px) { 
     .body-wrapper{
-        margin-left: 0;
+        margin-left: 0!important;
+        padding-top: 15px;
+        padding-bottom: 50px;
     }
     header{
         padding: 15px;
+        display: none;
     }
  }
 

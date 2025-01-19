@@ -1,4 +1,10 @@
 function updateBodyWrapperMargin() {
+    // Sadece masaüstü cihazlarda çalış
+    if (window.innerWidth <= 768) {
+        console.warn('Mobil cihaz algılandı. İşlem atlandı.');
+        return;
+    }
+
     var headers = document.querySelectorAll('header');
     var bodyWrappers = document.querySelectorAll('.body-wrapper');
     
@@ -16,5 +22,6 @@ function updateBodyWrapperMargin() {
     });
 }
 
+// Sayfa yüklendiğinde ve yeniden boyutlandırıldığında kontrol et
 window.addEventListener('load', updateBodyWrapperMargin);
 window.addEventListener('resize', updateBodyWrapperMargin);

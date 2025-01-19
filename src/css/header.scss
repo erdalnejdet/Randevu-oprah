@@ -65,6 +65,25 @@ header{
             margin: .4em 0;
         }
 }
+&-mobile{
+    background-color: #1DA547;
+    padding: 6px;
+    border-radius: 5px;
+    width: max-content;
+    
+    span{
+        width: 24px;
+        height: 2px;
+        background-color: #fff;
+        display: block;
+        transition: .3s ease;
+        position: relative;
+
+        &:nth-child(2) {
+            margin: .4em 0;
+        }
+    }
+}
 }
 .sidebar-on{
     .nav-item{
@@ -77,11 +96,24 @@ header{
 
 .nav-item{
     display: none;
-    
     opacity: 0;
     pointer-events: none;
 }
 
 .sidebar-on ul li a{
     justify-content: start!important;
+}
+
+.mobile{
+    padding-top: 1rem;
+    background-color: #ffffff;
+    .container{
+        border-bottom: 1px solid #efefef;
+        padding-bottom: 15px;
+    }
+    &-profile{
+        img{
+            border-radius: 50%;   
+        }
+    }
 }

@@ -90,6 +90,51 @@ $box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.07);
         }
 
     }
+    &-detay {
+        padding: 75px 0;
+        background-color: #fff;
+
+        h4 {
+            padding-top: 25px;
+        }
+
+        ul {
+            margin-top: 30px;
+
+            li {
+                position: relative;
+                padding-left: 18px;
+                margin-top: 10px;
+
+                &::before {
+                    width: 8px;
+                    height: 8px;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    top: 0;
+                    margin: auto 0;
+                    content: '';
+                    background-color: #1DA547;
+                    border-radius: 50%;
+                }
+
+                a {
+                    color: #333;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: normal;
+                    position: relative;
+                    transition: 0.2s;
+
+                    &:hover {
+                        color: #1DA547;
+                    }
+
+                }
+            }
+        }
+    }
 }
 
 .daha-fazla {
